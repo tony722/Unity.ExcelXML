@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ExcelXml VS2019", "Unity.ExcelXml\Unity.ExcelXml VS2019.csproj", "{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ExcelXml.Tests", "Unity.ExcelXML.Tests\Unity.ExcelXml.Tests.csproj", "{ED323C9F-556C-435C-B53D-0C53BC77057F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Debug|x86.ActiveCfg = Debug|x86
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Debug|x86.Build.0 = Debug|x86
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Release|x86.ActiveCfg = Release|x86
+		{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}.Release|x86.Build.0 = Release|x86
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED323C9F-556C-435C-B53D-0C53BC77057F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {762700AE-FAD4-4CEE-9326-4CA3787BAC6C}
+	EndGlobalSection
+EndGlobal
