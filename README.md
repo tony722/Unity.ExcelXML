@@ -3,7 +3,6 @@
 
 Crestron SIMPL# library for reading and writing Microsoft Xml Spreadsheet 2003 files. 
 
-
 ## License: Commercial Use Permitted (LGPL V3). In brief, under this license:
 Please freely use this module in any Crestron application, including for-profit Crestron SIMPL Windows programs that you charge money to sell, and in SIMPL# libraries of your own, including ones you sell.
 
