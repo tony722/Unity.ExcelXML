@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Crestron.SimplSharp.CrestronXmlLinq;
 
-namespace Unity.ExcelXml {
+namespace AET.Unity.ExcelXml {
   public static class LinqExtensions {
     public static void Each<T>(this IEnumerable<T> ie, Action<T, int> action) {
       var i = 0;

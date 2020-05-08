@@ -4,11 +4,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C37634B0-D77B-47EE-A88C-54CB0EE32643}</ProjectGuid>
+    <ProjectGuid>{77781977-BFD1-40B4-9B16-40EA4B034CEC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unity.ExcelXml</RootNamespace>
-    <AssemblyName>Unity.ExcelXml</AssemblyName>
+    <RootNamespace>AET.Unity.ExcelXml</RootNamespace>
+    <AssemblyName>AET.Unity.ExcelXml</AssemblyName>
     <ProjectTypeGuids>{0B4745B0-194B-4BB6-8E21-E9057CA92500};{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PlatformFamilyName>WindowsCE</PlatformFamilyName>
     <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>

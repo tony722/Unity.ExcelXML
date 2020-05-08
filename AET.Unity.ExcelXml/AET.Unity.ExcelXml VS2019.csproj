@@ -7,8 +7,8 @@
     <ProjectGuid>{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unity.ExcelXml</RootNamespace>
-    <AssemblyName>Unity.ExcelXml</AssemblyName>
+    <RootNamespace>AET.Unity.ExcelXml</RootNamespace>
+    <AssemblyName>AET.Unity.ExcelXml</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

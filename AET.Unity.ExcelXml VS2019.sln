@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ExcelXml VS2019", "Unity.ExcelXml\Unity.ExcelXml VS2019.csproj", "{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Unity.ExcelXml VS2019", "AET.Unity.ExcelXml\AET.Unity.ExcelXml VS2019.csproj", "{536C1814-CC5F-4B09-BDF5-6A846E7EE99E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ExcelXml.Tests", "Unity.ExcelXML.Tests\Unity.ExcelXml.Tests.csproj", "{ED323C9F-556C-435C-B53D-0C53BC77057F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Unity.ExcelXml.Tests", "AET.Unity.ExcelXML.Tests\AET.Unity.ExcelXml.Tests.csproj", "{ED323C9F-556C-435C-B53D-0C53BC77057F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

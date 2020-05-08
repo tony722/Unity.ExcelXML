@@ -6,8 +6,8 @@
     <ProjectGuid>{ED323C9F-556C-435C-B53D-0C53BC77057F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unity.ExcelXML.Tests</RootNamespace>
-    <AssemblyName>Unity.ExcelXML.Tests</AssemblyName>
+    <RootNamespace>AET.Unity.ExcelXML.Tests</RootNamespace>
+    <AssemblyName>AET.Unity.ExcelXML.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -90,9 +90,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Unity.ExcelXml\Unity.ExcelXml VS2019.csproj">
+    <ProjectReference Include="..\AET.Unity.ExcelXml\AET.Unity.ExcelXml VS2019.csproj">
       <Project>{536c1814-cc5f-4b09-bdf5-6a846e7ee99e}</Project>
-      <Name>Unity.ExcelXml VS2019</Name>
+      <Name>AET.Unity.ExcelXml VS2019</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

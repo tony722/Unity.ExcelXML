@@ -1,6 +1,6 @@
 ﻿using Crestron.SimplSharp.CrestronXmlLinq;
 
-namespace Unity.ExcelXml {
+namespace AET.Unity.ExcelXml {
   public class Row {
     public Row(XElement rowXml, int columnsCount, Rows parentRows) {
       RowXML = rowXml;

@@ -1,4 +1,4 @@
-﻿namespace Unity.ExcelXml {
+﻿namespace AET.Unity.ExcelXml {
   public class Column {    
     public Column(Rows rows, int columnIndex) {
       this.Cells = new Cells(rows, columnIndex);

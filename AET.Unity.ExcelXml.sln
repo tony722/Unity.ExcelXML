@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ExcelXml", "Unity.ExcelXml\Unity.ExcelXml.csproj", "{C37634B0-D77B-47EE-A88C-54CB0EE32643}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AET.Unity.ExcelXml", "AET.Unity.ExcelXml\AET.Unity.ExcelXml.csproj", "{C37634B0-D77B-47EE-A88C-54CB0EE32643}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Crestron.SimplSharp.CrestronXmlLinq;
 
-namespace Unity.ExcelXml {
+namespace AET.Unity.ExcelXml {
   public class Rows : IEnumerable<Row> {
     private List<Row> rows;
     private XElement table;

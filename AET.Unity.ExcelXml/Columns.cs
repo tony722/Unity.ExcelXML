@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Unity.ExcelXml {
+namespace AET.Unity.ExcelXml {
   public class Columns : IEnumerable<Column> {
     private List<Column> columns;
     public Columns(Rows rows) {

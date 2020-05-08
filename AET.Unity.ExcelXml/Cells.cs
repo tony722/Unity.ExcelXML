@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Unity.ExcelXml {
+namespace AET.Unity.ExcelXml {
   public class Cells : IEnumerable<Cell> {
     private List<Cell> cells;
     private readonly Row row;

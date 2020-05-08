@@ -1,6 +1,6 @@
 ﻿using Crestron.SimplSharp.CrestronXmlLinq;
 
-namespace Unity.ExcelXml {
+namespace AET.Unity.ExcelXml {
   public class Worksheet {
     public Worksheet() { }
     public Worksheet(XElement worksheetElement) {

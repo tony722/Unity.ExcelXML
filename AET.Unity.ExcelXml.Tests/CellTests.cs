@@ -1,9 +1,9 @@
-﻿using Crestron.SimplSharp.CrestronXmlLinq;
+﻿using AET.Unity.ExcelXml;
+using Crestron.SimplSharp.CrestronXmlLinq;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Unity.ExcelXml;
 
-namespace Unity.ExcelXML.Tests {
+namespace AET.Unity.ExcelXML.Tests {
   [TestClass]
   public class CellTests {
     Row row;
