@@ -2,7 +2,7 @@
 
 namespace AET.Unity.ExcelXml {
   public class Cell {
-    private Row parentRow;
+    private readonly Row parentRow;
 
     public Cell(Row parentRow) {
       this.parentRow = parentRow;

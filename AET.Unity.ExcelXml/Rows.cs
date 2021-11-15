@@ -29,7 +29,7 @@ namespace AET.Unity.ExcelXml {
     }
 
     public void SetColumnNames(IEnumerable<string> columns) {
-      ColumnNames = columns.Select((value, index) => new { value, index })
+      ColumnNames = columns.Where(c => !IsNullOrWhiteSpace(c)).Select((value, index) => new { value, index })
         .ToDictionary(o => o.value, o => o.index, StringComparer.InvariantCultureIgnoreCase);
     }
 
@@ -38,11 +38,26 @@ namespace AET.Unity.ExcelXml {
       SetColumnNames(row.Cells.Select(c => c.Value));
     }
 
+    /// <summary>
+    /// True if string contains only whitespace characters, or is null
+    /// (Backported from .NET Framework 4+)
+    /// </summary>
+    private bool IsNullOrWhiteSpace(string value) {
+      if (value == null) return true;
+      for (int index = 0; index < value.Length; ++index) {
+        if (!char.IsWhiteSpace(value[index]))
+          return false;
+      }
+      return true;
+    }
+
     private void IncrementXmlTableRowCount() {
       if (!table.HasAttribute(Settings.ssPrefix + "ExpandedRowCount")) return;
       var rowCount = int.Parse(table.Attribute(Settings.ssPrefix + "ExpandedRowCount").Value);
       table.Attribute(Settings.ssPrefix + "ExpandedRowCount").Value = (rowCount + 1).ToString();
     }
+
+
 
     public void Remove(Row row) {
       row.RowXML.Remove();

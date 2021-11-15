@@ -4,9 +4,9 @@ using Crestron.SimplSharp.CrestronXmlLinq;
 
 namespace AET.Unity.ExcelXml {
   public class Worksheets : IEnumerable<Worksheet> {
-    private List<Worksheet> worksheets;
+    private readonly List<Worksheet> worksheets;
     public Worksheets(IEnumerable<XElement> worksheetsXml) {
-      this.worksheets = worksheetsXml.Select(x => new Worksheet(x)).ToList();
+      worksheets = worksheetsXml.Select(x => new Worksheet(x)).ToList();
     }
 
     public Worksheet this[int index] {

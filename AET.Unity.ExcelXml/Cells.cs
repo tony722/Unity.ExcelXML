@@ -36,7 +36,7 @@ namespace AET.Unity.ExcelXml {
     private void FillCellsList() {
       var cellsXml = row.RowXML.Descendants(Settings.ssPrefix + "Cell");
       cells = new List<Cell>();
-      int i = 0;
+      var i = 0;
       foreach (var x in cellsXml) {
         var cell = new Cell(x, row);
         if (cell.IsIndexed) {

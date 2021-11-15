@@ -6,7 +6,7 @@ namespace AET.Unity.ExcelXml {
       RowXML = rowXml;
       ColumnsCount = columnsCount;
       Cells = new Cells(this);
-      this.ParentRows = parentRows;
+      ParentRows = parentRows;
     }
 
     public Rows ParentRows { get; private set; }
