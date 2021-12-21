@@ -21,5 +21,10 @@ namespace AET.Unity.ExcelXML.Tests {
       workbook.Worksheets["Events"].Should().NotBeNull();
       workbook["Settings"].Should().NotBeNull();
     }
+
+    [TestMethod]
+    public void AETVersion_WorkbookContainsAETVersion_ReturnsAETVersion() {
+      workbook.AETVersion.Should().Be("2.1.0");
+    }
   }
 }
